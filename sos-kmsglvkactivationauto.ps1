@@ -76,7 +76,10 @@ If (($officepath) -ne $null) {
     cmd /C cscript "$officepath\ospp.vbs" /remhst
     cmd /C cscript "$officepath\ospp.vbs" /dstatus
 }
-cmd /C cscript C:\windows\system32\slmgr.vbs /ipk "$kmskey"
-cmd /C cscript C:\windows\system32\slmgr.vbs /ato
-cmd /C cscript C:\windows\system32\slmgr.vbs /dlv
+If (($kmskey) -ne $null) {
+    cmd /C cscript C:\windows\system32\slmgr.vbs /ipk "$kmskey"
+    cmd /C cscript C:\windows\system32\slmgr.vbs /ato
+    cmd /C cscript C:\windows\system32\slmgr.vbs /dlv
+}
+
 
