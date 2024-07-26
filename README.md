@@ -1,7 +1,7 @@
 # SimeonOnSecurity - KMS-Auto-PS
 GLVK Auto Install Script for KMS Activation
 
-[![VirusTotal Scan](https://github.com/simeononsecurity/KMS-Auto-PS/actions/workflows/virustotal.yml/badge.svg)](https://github.com/simeononsecurity/KMS-Auto-PS/actions/workflows/virustotal.yml)
+ [![Sponsor](https://img.shields.io/badge/Sponsor-Click%20Here-ff69b4)](https://github.com/sponsors/simeononsecurity) [![VirusTotal Scan](https://github.com/simeononsecurity/KMS-Auto-PS/actions/workflows/virustotal.yml/badge.svg)](https://github.com/simeononsecurity/KMS-Auto-PS/actions/workflows/virustotal.yml)
 
 ## Recommened Reading:
 - [Microsoft - KMS Client Keys (GLVK)](https://docs.microsoft.com/en-us/windows-server/get-started/kmsclientkeys)
