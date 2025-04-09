@@ -26,7 +26,7 @@ cscript $slmgrpath\slmgr.vbs /act-type 0
 
 #Activate KMS Caching
 Write-Host "Activate KMS Caching" -ForegroundColor Green
-cmd /ccscript "$slmgrpath\slmgr.vbs" /skhc
+cmd /cscript "$slmgrpath\slmgr.vbs" /skhc
 
 #Windows Activation
 #Installs GLVK Keys for Enterprise or Datacenter versions of windows
